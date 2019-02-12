@@ -15,7 +15,7 @@
 
 .menu {
     margin-left: 20px;
-    width: 1700px;
+    min-width: 1300px;
     display: flex;
     justify-content: space-between;
 }
@@ -47,6 +47,7 @@
     justify-content: center;
     background-color: #f1f1f1;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .bar-container {
@@ -75,6 +76,7 @@
     background: linear-gradient(to top, #2B2F34 0%, #2B2F34 30%, #000000 20%, #2B2F34 0%, #000000 100%);
     justify-content: center;
     min-height: 680px;
+    min-width: 250px;
     background-color: #f1f1f1;
     flex-direction: row;
     flex-wrap: wrap;
@@ -85,7 +87,7 @@
     margin-top: 60px;
     margin-left: 20px;
     margin-bottom: 10px;
-    width: 450px;
+    min-width: 450px;
     height: 210px;
     display: flex;
     justify-content: center; /* Change this */
