@@ -1,11 +1,93 @@
-html {
-    height: 100%;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {
+.menu-container {
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu {
+    margin-left: 20px;
+    width: 1700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-icon-color {
+    font-size: 48px;
+    color: #FFBE20;
+}
+
+.menu-cam-color {
+    color: #FFBE20;
+    margin-right: 10px;
+}
+
+.date-left-icon {
+    margin-right: 30px;
+}
+
+.date-right-icon {
+    margin-left: 30px;
+}
+
+.root-container {
     height: 100%;
     background-repeat: repeat-y;
-    background-size: 50% auto;
+    background-size: auto;
     background: linear-gradient(to bottom, #2B2F34 0%, #2B2F34 50%, #000000 70%, #FFBE20 70%, #FFBE20 100%);
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    flex-direction: row;
+}
+
+.bar-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    flex-direction: row;
+
+}
+
+.photo-grid-container {
+    display: flex;
+    margin: 50px;
+    background: linear-gradient(to top, #2B2F34 0%, #2B2F34 30%, #000000 20%, #2B2F34 0%, #000000 100%);
+    justify-content: flex-start;
+    min-height: 680px;
+    background-color: #f1f1f1;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.grid-container {
+    display: flex;
+    margin: 50px;
+    background: linear-gradient(to top, #2B2F34 0%, #2B2F34 30%, #000000 20%, #2B2F34 0%, #000000 100%);
+    justify-content: center;
+    min-height: 680px;
+    background-color: #f1f1f1;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.photo-grid-item {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 210px;
+    display: flex;
+    justify-content: center; /* Change this */
 
 }
